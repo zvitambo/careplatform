@@ -1,3 +1,9 @@
+01:00:00
+02:04:06
+02:21:00
+03:26:00
+03:52:36
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
