@@ -63,7 +63,18 @@ const Success = async ({params: {userId}, searchParams}: SearchParamProps) => {
             New Appointment
           </Link>
         </Button>
-        <p className='copyright'>© 2024 CarePluse</p>
+        <p className='copyright'>
+          {" "}
+          {new Date().getFullYear()}{" "}
+          <Link
+            href='https://zvitambodev.co.zw/'
+            target='_blank'
+            style={{ color: "green" }}
+          >
+            {"zvitamboDev"}
+          </Link>{" "}
+          &copy; All Rights Reserved
+        </p>
       </div>
     </div>
   );

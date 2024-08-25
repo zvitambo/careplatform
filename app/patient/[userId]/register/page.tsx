@@ -24,7 +24,18 @@ const Register = async ({params: {userId}}: SearchParamProps) => {
 
           <RegisterForm user={user} />
 
-          <p className='copyright mt-10 py-12'>© 2024 CarePluse</p>
+          <p className='copyright mt-10 py-12'>
+            {" "}
+            {new Date().getFullYear()}{" "}
+            <Link
+              href='https://zvitambodev.co.zw/'
+              target='_blank'
+              style={{ color: "green" }}
+            >
+              {"zvitamboDev"}
+            </Link>{" "}
+            &copy; All Rights Reserved
+          </p>
         </div>
       </section>
 
